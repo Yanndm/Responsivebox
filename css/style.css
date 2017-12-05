@@ -1,12 +1,9 @@
 @font-face {
     font-family: "Cardo-Italic";
-    src: url("font/Cardo-Italic.tff") format("ttf");
+    src: url('https://fonts.googleapis.com/css?family=Cardo:400i') format('truetype');
 }
 
-@font-face {
-    font-family: "OpenSans-Bold";
-    src: url("font/OpenSans-Bold.ttf") format("ttf");
-}
+
 
 @font-face {
   font-family: "Raleway-Regular";
@@ -47,29 +44,70 @@ h1{
   width: 386px;
   color: #6c7279;
   border-bottom: 1px solid;
-
-
+}
+@media (min-width: 1024px) {
+  .nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 100px;
+    color: #6c7279;
+    border-bottom: 1px solid;
+  }
 }
 
 .navLeft{
   display: flex;
   align-items: center;
+}
+@media (min-width: 1024px) {
+  .navLeft{
+    width: 200px;
+  }
 
 }
-
-
-
 .nav .navRight{
   margin-left: 65%
-
-
 }
+.navList{
+  display: none;
+}
+@media (min-width: 1024px) {
+  .navList{
+    position: relative;
+    margin-left: 40%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+
+
+  }
+  .navListLink{
+    margin-right: 59px;
+  }
+  .ourteambr{
+
+  }
+}
+
 
 .hamburger{
   height: 44px;
   width: 44px;
   border-radius: 50%;
   background: white;
+}
+@media (min-width: 1024px) {
+  .hamburger{
+    display: none;
+  }
 }
 
 .container{
@@ -78,10 +116,19 @@ h1{
    height: 539px;
    width: 360px;
    color: #fff;
-
+}
+@media (min-width: 1024px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    width: auto;
+    margin-top: 156px;
+    color: #fff;
+  }
 
 }
-
 .headerContainer{
   background: url('../img/banner.jpg');
   width: 435px;
@@ -90,9 +137,23 @@ h1{
 .headTitle{
   text-align: center;
   font-size: 32px;
-
 }
+@media (min-width: 1024px) {
+  .headTitle{
+    text-align: center;
+    font-size: 42px;
+  }
 
+@media (min-width:1024px) {
+  .headerbr{
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .headtextbr{
+    display: block;
+  }
+}
 .headText{
   text-align: center;
   margin-top: 10px;
@@ -111,6 +172,21 @@ h1{
   font-size: 13px;
   font-family: "Raleway";
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .moreBtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin: auto;
+    margin-bottom: 157px;
+    background: #e84545;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: "Raleway";
+    text-align: center;
+  }
 }
 
 .part1{
@@ -137,6 +213,7 @@ h1{
   margin-top: 20px;
   margin-bottom: 50px;
 }
+<<<<<<< HEAD
 
 .part2{
   width: 386px;
@@ -212,3 +289,5 @@ h1{
 @media (min-width: 1200px) {
 
 }
+=======
+>>>>>>> 940027c18e0daae050dca288059997e7b63d92e2
