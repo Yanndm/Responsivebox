@@ -83,7 +83,8 @@ h1{
 }
 
 .headerContainer{
-  background: url('../img/banner.jpg')
+  background: url('../img/banner.jpg');
+  width: 435px;
 }
 
 .headTitle{
@@ -113,10 +114,10 @@ h1{
 }
 
 .part1{
-  height: 1604px;
+  height: 1504px;
   width: 386px;
-  padding: 100px 0px;
-  margin: 0 55px;
+  padding: 180px 0px;
+  margin: 0 15px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -135,6 +136,72 @@ h1{
 .textPart1{
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.part2{
+  width: 386px;
+  height: 2030px;
+}
+
+.imgPart2{
+  width: 430px;
+  height: 350px;
+  border-bottom: 0.5px solid;
+  color: #fff;
+  margin-bottom: -2px;
+}
+
+.part3{
+  width: 386px;
+  height: 2557px;
+  margin: 0px 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.p3ProfileImg{
+  margin-top: 50px;
+}
+
+
+.p3ProfileName{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 22px
+}
+
+.p3ProfileRole{
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #e84545
+}
+
+.p3ProfileBio{
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  color: #6c7279;
+}
+
+.p3ProfileIconsContainer{
+  display: flex;
+  justify-content: center;
+  font-size: 18px
+}
+
+.p3ProfileIcons{
+  border: 1px solid;
+  height: 40px;
+  width: 40px;
+  color: #c6cacc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  margin-right: 10px;
+
 }
 
 
