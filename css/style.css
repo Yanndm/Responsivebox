@@ -47,6 +47,7 @@ h1{
 }
 @media (min-width: 1024px) {
   .nav {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -62,16 +63,40 @@ h1{
 .navLeft{
   display: flex;
   align-items: center;
+}
+@media (min-width: 1024px) {
+  .navLeft{
+    width: 200px;
+  }
 
 }
-
-
-
 .nav .navRight{
   margin-left: 65%
-
-
 }
+.navList{
+  display: none;
+}
+@media (min-width: 1024px) {
+  .navList{
+    position: relative;
+    margin-left: 40%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+
+
+  }
+  .navListLink{
+    margin-right: 59px;
+  }
+  .ourteambr{
+
+  }
+}
+
 
 .hamburger{
   height: 44px;
@@ -148,6 +173,21 @@ h1{
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  .moreBtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin: auto;
+    margin-bottom: 157px;
+    background: #e84545;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: "Raleway";
+    text-align: center;
+  }
+}
+
 .part1{
   height: 1604px;
   width: 386px;
@@ -171,13 +211,4 @@ h1{
 .textPart1{
   margin-top: 20px;
   margin-bottom: 50px;
-}
-
-
-@media (min-width: 600px) {
-
-}
-
-@media (min-width: 1200px) {
-
 }
