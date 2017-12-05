@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Cardo-Italic";
+    src: url("font/Cardo-Italic.tff") format("ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("font/OpenSans-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("font/raleway-regular.ttf") format("ttf");
+
+}
+
+@font-face {
+  font-family: "Raleway-bold";
+  src: url("fontRaleway-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Raleway-lightitalic.ttf";
+    src: url("font/raleway-lightitalic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Raleway-semibold.ttf";
+  src: url("font/raleway-semibold.ttf") format("ttf");
+}
+
+p{
+  font-family: "raleway";
+}
+
+h1{
+  font-family: "Open Sans";
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 22px;
+  margin-right: 22px;
+  height: 100px;
+  width: 386px;
+  color: #6c7279;
+  border-bottom: 1px solid;
+
+
+}
+
+.navLeft{
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.nav .navRight{
+  margin-left: 65%
+
+
+}
+
+.hamburger{
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background: white;
+}
+
+.container{
+   margin-top: 90px;
+   margin-left: 22px;
+   height: 539px;
+   width: 360px;
+   color: #fff;
+
+
+}
+
+.headerContainer{
+  background: url('../img/banner.jpg')
+}
+
+.headTitle{
+  text-align: center;
+  font-size: 32px;
+
+}
+
+.headText{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.moreBtn{
+  height: 18px;
+  width:  101px;
+  padding: 15px 40px;
+  margin-left: 90px;
+  background: #e84545;
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.part1{
+  height: 1604px;
+  width: 386px;
+  padding: 100px 0px;
+  margin: 0 55px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.part1Bloc{
+  margin-bottom: 50px;
+}
+
+.titlePart1{
+  margin-top: 30px;
+}
+
+.textPart1{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
